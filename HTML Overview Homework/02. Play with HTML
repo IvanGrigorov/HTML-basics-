@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Paragraphs and Images
+		</title>
+	</head>
+	<body>
+		<center><h1> My second HTML project </h1></center>
+		<br>
+		<center><h2> Paragraphs and Images </h2></center>
+		<br>
+		<center><h3> Hope you enjoy it ! </h3></center>
+		<br>
+		<center><img src="Additional Files/html.gif" alt="The image did not load correctly" title="HTML Fundamentals" width="200px" height="200px"/></center>
+		<center><b><i>Hello, HTML</i></b></center>
+		<br>
+		<p>
+		HyperText Markup Language commonly referred to as HTML is the standard markup language used to create web pages. It is written in the form of HTML elements consisting of tags enclosed in angle brackets (like html). HTML tags most commonly come in pairs like h1 and /h1, although some tags represent empty elements and so are unpaired, for example img. The first tag in a pair is the start tag, and the second tag is the end tag (they are also called opening tags and closing tags).
+
+		Web browsers can read HTML files and compose them into visible or audible web pages. Browsers do not display the HTML tags and scripts, but use them to interpret the content of the page. HTML describes the structure of a website semantically along with cues for presentation, making it a markup language, rather than a programming language.
+
+		HTML elements form the building blocks of all websites. HTML allows images and objects to be embedded and can be used to create interactive forms. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. It can embed scripts written in languages such as JavaScript which affect the behavior of HTML web pages.
+
+		Web browsers can also refer to Cascading Style Sheets (CSS) to define the look and layout of text and other material. The World Wide Web Consortium (W3C), maintainer of both the HTML and the CSS standards, encourages the use of CSS over explicit presentational HTML.[1]
+		</p>
+		<br>
+		<center>Goodbye</center>
+		<br>
+	</body>
+</html>

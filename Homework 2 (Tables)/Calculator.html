@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<style type="text/css">
+		table, th, td {
+    	border: 1px solid Cyan;
+    	border-collapse: collapse;
+    	color: Cyan;
+		}
+		.centered > td {
+			text-align: center;
+			font-size: 180%;
+		}
+		.centered > td > button {
+    		color: Cyan;
+    		background-color: #FFFFFF;
+    		font-size: 90%;
+		}
+		.right > input{
+			text-align: right;
+			color: Cyan;
+			font-size: 180%;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td colspan="4" class = "right">
+				<input type="text" value="123">
+			</td>	
+		</tr>
+		<tr class = "centered">
+			<td><button type="button">1</button></td>
+			<td><button type="button">2</button></td>
+			<td><button type="button">3</button></td>
+			<td><button type="button">+</button></td>
+		</tr>
+		<tr class = "centered">
+			<td><button type="button">4</button></td>
+			<td><button type="button">5</button></td>
+			<td><button type="button">6</button></td>
+			<td><button type="button">-</button></td>
+		</tr>
+		<tr class = "centered">
+			<td><button type="button">7</button></td>
+			<td><button type="button">8</button></td>
+			<td><button type="button">9</button></td>
+			<td><button type="button">*</button></td>
+		</tr>
+		<tr class = "centered">
+			<td colspan="2"><button type="button">0</button></td>
+			<td><button type="button">.</button></td>
+			<td><button type="button">/</button></td>
+		</tr>
+	</table>
+</body>
+</html>
